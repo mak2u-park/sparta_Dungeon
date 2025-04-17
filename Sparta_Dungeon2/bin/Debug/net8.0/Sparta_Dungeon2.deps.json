@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sparta_Dungeon2/1.0.0": {
+        "runtime": {
+          "Sparta_Dungeon2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sparta_Dungeon2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -13,7 +13,7 @@
     class GameManager
     {
         Player player = new Player();
-        Shop shop = new Shop();
+
         // shop 변수만 선언하고 이후 DesplayShop() 메서드에서 초기화
         public void StartGame()
         {
@@ -56,6 +56,7 @@
                             player.Inventory();
                             break;
                         case 3:
+                            Shop shop = new Shop();
                             shop.DisplayShop();
                             break;
 
@@ -167,7 +168,7 @@
 
     public class Shop
     {
-
+        Player player = new Player();
         public ItemInfo[] items;
 
         public Shop()
@@ -230,8 +231,7 @@
             };
         }
         public void DisplayShop()
-        {           
-
+        {
             Console.WriteLine("필요한 아이템을 얻을 수 있는 상점입니다.\n");
             Console.WriteLine("[보유 골드]\n{0}G\n", player.gold);
             Console.WriteLine("[아이템 목록]");

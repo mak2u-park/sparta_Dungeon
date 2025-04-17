@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Sparta_Dungeon")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sparta_Dungeon2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c08bb3e1db20fd9abaea31b8a434cbc1b22cd821")]
-[assembly: System.Reflection.AssemblyProductAttribute("Sparta_Dungeon")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Sparta_Dungeon")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sparta_Dungeon2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Sparta_Dungeon2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

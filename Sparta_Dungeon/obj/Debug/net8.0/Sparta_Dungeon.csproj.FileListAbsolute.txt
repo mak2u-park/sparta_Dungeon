@@ -12,3 +12,4 @@ C:\Users\JH\Desktop\sparta coding\Sparta_Dungeon\Sparta_Dungeon\obj\Debug\net8.0
 C:\Users\JH\Desktop\sparta coding\Sparta_Dungeon\Sparta_Dungeon\obj\Debug\net8.0\Sparta_Dungeon.pdb
 C:\Users\JH\Desktop\sparta coding\Sparta_Dungeon\Sparta_Dungeon\obj\Debug\net8.0\Sparta_Dungeon.genruntimeconfig.cache
 C:\Users\JH\Desktop\sparta coding\Sparta_Dungeon\Sparta_Dungeon\obj\Debug\net8.0\ref\Sparta_Dungeon.dll
+C:\Users\JH\Desktop\sparta coding\Sparta_Dungeon\Sparta_Dungeon\obj\Debug\net8.0\Sparta_Dungeon.sourcelink.json
