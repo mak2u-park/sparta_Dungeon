@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Sparta_Dungeon2
+namespace Sparta_Dungeon
 {
     internal class Program
     {
@@ -20,6 +20,7 @@ namespace Sparta_Dungeon2
         public void StartGame()
         {
             shop = new Shop(player, inventory); // 상점 초기화
+            player.Inventory = inventory;
 
             Console.WriteLine("스파르타 마을에 오신 여러분 환영합니다.");
             Console.WriteLine("이곳에서 던전으로 들어가기 전 활동을 할 수 있습니다.\n");
@@ -72,14 +73,42 @@ namespace Sparta_Dungeon2
     }
     public class Player
     {
+        public Inventory Inventory;
+
         int level = 1;
         string name = "르탄이";
         string job = "전사";
-        int attack = 10;
-        int defense = 5;
+        int baseattack = 10;
+        int basedefense = 5;
         int health = 100;
         public int gold { get; set; } = 1500;
 
+
+        public int addAttack()
+        {
+            int add = 0;
+            foreach (var item in Inventory.inventoryList)
+            {
+                if (item.isEquipped == true && item.itemInfo.PowerType == "공격력")
+                {
+                    add += item.itemInfo.Power;
+                }
+            }
+            return baseattack + add;
+        }
+
+        public int addDefense()
+        {
+            int add = 0;
+            foreach (var item in Inventory.inventoryList)
+            {
+                if (item.isEquipped == true && item.itemInfo.PowerType == "방어력")
+                {
+                    add += item.itemInfo.Power;
+                }
+            }
+            return basedefense + add;
+        }
 
 
 
@@ -89,8 +118,8 @@ namespace Sparta_Dungeon2
             Console.WriteLine("\n[상태 보기]\n캐릭터의 상태가 표시됩니다.\n");
             Console.WriteLine("레벨 : {0}", level);
             Console.WriteLine("{0} ( {1} )", name, job);
-            Console.WriteLine("공격력 : {0}", attack);
-            Console.WriteLine("방어력 : {0}", defense);
+            Console.WriteLine("공격력 : {0}", addAttack());
+            Console.WriteLine("방어력 : {0}", addDefense());
             Console.WriteLine("체력 : {0}", health);
             Console.WriteLine("골드 : {0}G", gold);
             Console.WriteLine("\n0. 나가기");

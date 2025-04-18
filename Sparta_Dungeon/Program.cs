@@ -1,4 +1,4 @@
-﻿namespace Sparta_Dungeon
+﻿namespace Sparta_Dungeon_failed
 {
     internal class Program
     {        

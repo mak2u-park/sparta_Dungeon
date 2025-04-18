@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JH\\Desktop\\sparta coding\\Sparta_Dungeon\\Sparta_Dungeon3\\Sparta_Dungeon3.csproj",
-      "projectName": "Sparta_Dungeon3",
-      "projectPath": "C:\\Users\\JH\\Desktop\\sparta coding\\Sparta_Dungeon\\Sparta_Dungeon3\\Sparta_Dungeon3.csproj",
+      "projectUniqueName": "C:\\Users\\JH\\Desktop\\sparta coding\\Sparta_Dungeon\\Sparta_Dungeon3\\Sparta_Dungeon_Test.csproj",
+      "projectName": "Sparta_Dungeon_Test",
+      "projectPath": "C:\\Users\\JH\\Desktop\\sparta coding\\Sparta_Dungeon\\Sparta_Dungeon3\\Sparta_Dungeon_Test.csproj",
       "packagesPath": "C:\\Users\\JH\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\JH\\Desktop\\sparta coding\\Sparta_Dungeon\\Sparta_Dungeon3\\obj\\",
       "projectStyle": "PackageReference",

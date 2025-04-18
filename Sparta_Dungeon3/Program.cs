@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Sparta_Dungeon3
+namespace Sparta_Dungeon_Test
 {
     internal class Program
     {
